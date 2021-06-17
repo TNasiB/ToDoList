@@ -98,6 +98,16 @@ body {
     margin: 0;
     text-align: center;
     margin-bottom: 5px;
+    position: relative;
+}
+
+.toDo__task span{
+    position: absolute;
+    right: -1px;
+    color: green;
+    cursor: pointer;
+    font-size: 23px;
+    line-height: 20px;
 }
 
 .toDo__footer {
@@ -106,4 +116,8 @@ body {
     text-align: right;
     padding-right: 25px;
     padding-top: 24px;
+}
+
+.completed {
+    background-color: #77d8ae;
 }
