@@ -1,0 +1,66 @@
+body {
+    background-color: #F8EDED;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.toDo {
+    background-color: #DDFFF0;
+    width: 500px;
+    min-height: 400px;
+    border-radius: 15px;
+    border: 2px solid rgb(118, 138, 146);
+    box-shadow: 4px 4px 25px 0px rgba(34, 60, 80, 0.2);
+    margin: 200px auto
+}
+
+.toDo__header {
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.toDo__addTask {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid rgb(118, 138, 146);
+    border-bottom: 2px solid rgb(118, 138, 146);
+}
+
+.toDo__input {
+    border-radius: 10px;
+    border: 2px solid rgb(118, 138, 146);
+}
+
+.toDo__add-btn {
+    border-radius: 10px;
+    border: 1px solid rgb(118, 138, 146);
+    cursor: pointer;
+}
+
+.toDo__categories {
+    border-bottom: 2px solid rgb(118, 138, 146);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.toDo__need {
+    width: 50%;
+    text-align: center;
+}
+
+.toDo__done {
+    width: 50%;
+    text-align: center;
+    height: 100%;
+}
+
+.toDo__need + .toDo__done {
+    border-left: 2px solid #000;
+}
+
+.toDo__left {
+    background-color: #F6DFEB
+    ;
+}
